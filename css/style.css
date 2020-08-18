@@ -1,8 +1,19 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc)
+}
 
 /*////////// Global Styles //////////*/
+
+
+/*  this makes the content fit neatly on one page*/
+ * {
+	padding: 0;
+	margin: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -18,3 +29,85 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: normal;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc
+}
+
+h2 {
+    color: rgb(111,127,122);
+    font-size: 2em;
+}
+
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 0 0 20px 0;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+/* Section Styles */
+
+/* Grab the a tag within the header tag and apply styling to it*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+/* create hover over the header here*/
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+/* Select image in "featured" section to add border */
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+/* Select the a tag with a hyperlink and remove the underline and change its colour */
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;/* this removes the underlining in hyperlinks*/
+}
+
+/* to add the underlining back in when a user hovers over the link*/
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+/* set a margin between the press section and the copyright footer */
+
+#press {
+	margin-bottom: 20px;
+}
+
+/* create a border around the img tags in the "press" section */
+
+#press img {
+	border: 5px #ccc solid;
+}
+
+/* Create hover function for when user hovers over the img tags with their mouse, function will change the colour of the border to make it clear to the user */
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+/* Align footer to the right*/
+
+footer {
+	text-align: right;
+	background-color: #fff;
+}
