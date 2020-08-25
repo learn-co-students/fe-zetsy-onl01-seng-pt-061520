@@ -18,3 +18,64 @@ body {
 }
 
 /* Write all remaining styles here */
+
+div.wrapper {
+	display: inline-block;
+	margin: 0 15%;
+	width: 70%;
+	padding: 0 0 0 0;
+}
+
+div.column {
+	padding: 0 45px 20px;
+}
+
+h1#title {
+	color: #9EB0AA;
+	font-size: 4em;
+	font-weight: 200;
+	margin: 0.25em 0;
+}
+
+h2 {
+	color: #717E7D;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+p{
+	color: #5C6063;
+	font-size: 0.85em;
+}
+
+div.wrapper figure {
+	margin: 0;
+}
+
+#main-image{
+	width: 100%;
+	display: block;
+	border: solid 3px #9DAAA6;
+}
+
+p a { 
+	color: #5B97CC;
+	text-decoration: none;
+}
+
+.press-img-container{
+	display: flex;
+	justify-content: center;
+}
+
+.press-img {
+	border: solid 3px lightgrey;
+	width: 95%;
+}
+
+.press-img:hover{ border-color: grey}
+
+p#copywrite {
+	float: right;
+	font-size: 0.75em;
+}
