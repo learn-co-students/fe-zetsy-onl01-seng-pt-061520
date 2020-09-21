@@ -1,20 +1,48 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: #555;
 }
 
 .wrapper {
-	width: 960px;
+	width: auto;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+div.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 200px;
+	align-items: center;
+}
+
+div.grid-container a {
+	margin: 0 auto;
+	border: 5px solid grey;
+}
+
+div.grid-container a:hover {
+	border: 5px solid black;
+}
+
+footer {
+	text-align: right;
+}
+
+img {
+	width: 100%;
+}
